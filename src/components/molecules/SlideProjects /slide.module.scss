@@ -1,0 +1,46 @@
+.container {
+  position: relative;
+
+  .arrowLeft,
+  .arrowRight {
+    width: 14.3%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: var(--color-project-text);
+
+    background: linear-gradient(
+      95.95deg,
+      rgba(37, 37, 37, 0.1) 4.49%,
+      #252525 100%
+    );
+
+    z-index: 999;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .arrowLeft {
+    border-radius: 0.6rem;
+
+    left: 0;
+  }
+
+  .arrowRight {
+    border-radius: 0.6rem 0rem 0rem 0.6rem;
+
+    right: 0;
+  }
+}
+
+.slideContainer {
+  display: flex;
+  gap: 1rem;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  overflow: hidden;
+  padding-right: 20%;
+}

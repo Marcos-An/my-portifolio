@@ -1,0 +1,22 @@
+.container {
+  color: var(--color-title);
+  font-weight: medium;
+  display: flex;
+  align-items: center;
+
+  h4,
+  h5 {
+    margin: 0px;
+  }
+}
+
+.circle {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+}
+
+.content {
+  margin-left: -1.5rem;
+}
