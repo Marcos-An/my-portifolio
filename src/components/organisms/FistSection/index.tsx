@@ -13,7 +13,7 @@ import { ThemeContext } from '@contexts/ThemeContext'
 import Image from 'next/image'
 import { SliderProjects } from '@components/molecules/SlideProjects '
 import projectsData from '@utils/projects.json'
-import { CardHome } from '@components/molecules/ProjectCard'
+import { ProjectCard } from '@components/molecules/ProjectCard'
 import { ProjectType } from 'src/utils/types'
 
 export function FirstSection() {
@@ -82,14 +82,13 @@ export function FirstSection() {
 
       <div className={styles.slideWrapper}>
         <p>{projects[currentSlide - 1].about}</p>
-        <SliderProjects
-          currentSlide={currentSlide}
-          setcurrentSlide={setcurrentSlide}
-        >
-          {projects.map((project) => (
-            <CardHome data={project as ProjectType} key={project.id} />
-          ))}
-        </SliderProjects>
+        <div className={styles.slide}>
+          <SliderProjects setcurrentSlide={setcurrentSlide}>
+            {projects.map((project) => (
+              <ProjectCard data={project as ProjectType} key={project.id} />
+            ))}
+          </SliderProjects>
+        </div>
       </div>
     </div>
   )

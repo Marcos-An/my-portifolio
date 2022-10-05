@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-left: 9.375rem;
+
+  h1,
+  h2 {
+    margin: 0;
+  }
+  h1 {
+    font-size: 3rem;
+    color: var(--color-title);
+  }
+  h2 {
+    font-size: 1.76rem;
+    color: var(--color-subtitle);
+  }
+}
+
+.slide {
+  width: 100%;
+  margin-top: 4rem;
+}

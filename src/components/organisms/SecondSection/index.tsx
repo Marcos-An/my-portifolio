@@ -49,7 +49,7 @@ export function SecondSection() {
         <div className={styles.darkContainer}>
           <div className={styles.imageLeft} />
 
-          <div className={styles.contentLightWrapper}>
+          <div className={styles.contentDarkWrapper}>
             <h1>MARCOS ANTONIO</h1>
             <h3>FRONT END ENGENEER</h3>
 

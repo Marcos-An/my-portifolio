@@ -1,9 +1,7 @@
 .container {
   position: relative;
 
-  .arrowLeft,
   .arrowRight {
-    width: 14.3%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -38,9 +36,7 @@
 
 .slideContainer {
   display: flex;
-  gap: 1rem;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   overflow: hidden;
-  padding-right: 20%;
 }

@@ -48,6 +48,7 @@ export function Menu() {
         {menu.map((item, index) => (
           <li
             onClick={() => handleMenu(item)}
+            key={index}
             className={
               item.isSelected ? styles.menuItemSelected : styles.menuItem
             }

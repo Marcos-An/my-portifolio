@@ -1,4 +1,62 @@
-.contentWrapper {
+.smallImageContainer {
+  min-height: 9.375rem;
+  min-width: 16.875rem;
+  border-radius: 0.6rem;
+  margin-left: 1rem;
+
+  .smallContentWrapper {
+    h3 {
+      font-size: 1.1rem;
+      margin-bottom: 7px;
+    }
+
+    span {
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
+  }
+}
+
+.mediumImageContainer {
+  min-height: 9.375rem;
+  min-width: 16.875rem;
+  border-radius: 0.6rem;
+
+  .mediumContentWrapper {
+    h3 {
+      font-size: 1.1rem;
+      margin-bottom: 7px;
+    }
+
+    span {
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
+  }
+}
+
+.largeImageContainer {
+  min-width: 19.5rem;
+  min-height: 25rem;
+  border-radius: 0.6rem;
+  margin-left: 1.5rem;
+
+  .largeContentWrapper {
+    h3 {
+      font-size: 1.1rem;
+      margin-bottom: 7px;
+    }
+
+    span {
+      font-size: 0.8rem;
+      cursor: pointer;
+    }
+  }
+}
+
+.smallContentWrapper,
+.mediumContentWrapper,
+.largeContentWrapper {
   z-index: 2;
   position: absolute;
   height: 100%;
@@ -10,24 +68,14 @@
 
   color: var(--color-project-text);
   background: var(--color-project-card-background);
-
-  h3 {
-    margin-bottom: 7px;
-  }
-
-  span {
-    font-size: 0.9rem;
-    cursor: pointer;
-  }
 }
 
-.imageContainer {
+.smallImageContainer,
+.mediumImageContainer,
+.largeImageContainer {
   position: relative;
-  min-height: 9.375rem;
-  min-width: 16.875rem;
   z-index: 0;
   overflow: hidden;
-  border-radius: 0.6rem;
   scroll-snap-align: start;
   pointer-events: none;
 
