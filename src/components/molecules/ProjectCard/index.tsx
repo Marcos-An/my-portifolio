@@ -16,7 +16,7 @@ export function CardHome({ data }: CardHome) {
           Veja Agora <ArrowIconCard />
         </span>
       </div>
-      <Image src={data.bannerUrl} alt={'noemia'} layout="fill" />
+      <Image src={data.bannerUrl} alt={data.title} layout="fill" />
     </div>
   )
 }
