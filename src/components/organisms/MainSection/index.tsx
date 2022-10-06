@@ -22,7 +22,7 @@ export function MainSection() {
         <div className={styles.titleLightContainer}>
           <div className={styles.imageWrapper}>
             <Image
-              src="/assets/images/Group 36.png"
+              src="/assets/images/sun.png"
               alt="sun"
               layout="fill"
               objectFit="cover"
