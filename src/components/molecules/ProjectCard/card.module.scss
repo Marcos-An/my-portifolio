@@ -44,14 +44,13 @@
 
   .largeContentWrapper {
     padding: 1rem;
-    h3 {
-      font-size: 1.1rem;
-      margin-bottom: 7px;
-    }
 
-    span {
-      font-size: 0.8rem;
-      cursor: pointer;
+    h3 {
+      font-size: 1.3rem;
+      margin-bottom: 7px;
+      overflow-wrap: break-word;
+      hyphens: manual;
+      width: 40%;
     }
   }
 }

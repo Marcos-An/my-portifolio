@@ -81,9 +81,6 @@ function CardLG({ data }: { data: ProjectType }) {
       </div>
       <div className={styles.largeContentWrapper}>
         <h3>{data.title}</h3>
-        <span>
-          Veja Agora <ArrowIconCard />
-        </span>
       </div>
       <Image
         src={data.bannerUrl}
