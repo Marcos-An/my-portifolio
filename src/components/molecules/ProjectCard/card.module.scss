@@ -4,6 +4,16 @@
   border-radius: 0.6rem;
   margin-left: 1rem;
 
+  &:hover {
+    border: var(--color-border-hover-card);
+    box-shadow: 0px 0px 5px rgba(196, 70, 43);
+
+    .smallContentWrapper {
+      background: var(--color-project-card-hover-background);
+      transition: all 0.1s ease-in-out;
+    }
+  }
+
   .smallContentWrapper {
     h3 {
       font-size: 1.1rem;

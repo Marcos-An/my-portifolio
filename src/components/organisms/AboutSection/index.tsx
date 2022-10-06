@@ -4,13 +4,10 @@ import { ThemeContext } from '@contexts/ThemeContext'
 import Image from 'next/image'
 import { useContext } from 'react'
 import styles from './secondSection.module.scss'
-import projectsData from '@utils/projects.json'
 
 export function AboutSection() {
   const themeContext = useContext(ThemeContext)
   const { theme } = themeContext
-
-  const { projects } = projectsData
 
   const TechIcons = () => {
     return (
@@ -24,6 +21,7 @@ export function AboutSection() {
   }
   return (
     <div className={styles.container}>
+      <a id="about" />
       {theme === 'light' ? (
         <div className={styles.lightContainer}>
           <div className={styles.imageWrapper}>
@@ -45,7 +43,9 @@ export function AboutSection() {
               lobortis euismod velit vel auctor.{' '}
             </p>
             <div className={styles.buttonLightWrapper}>
-              <Button>Meus Projetos</Button>
+              <a href="#side-projects">
+                <Button>Meus Projetos</Button>
+              </a>
               <TechIcons />
             </div>
           </div>
@@ -65,7 +65,9 @@ export function AboutSection() {
               lobortis euismod velit vel auctor
             </p>
             <div className={styles.buttonLightWrapper}>
-              <Button>Meus Projetos</Button>
+              <a href="#side-projects">
+                <Button>Meus Projetos</Button>
+              </a>
               <TechIcons />
             </div>
           </div>

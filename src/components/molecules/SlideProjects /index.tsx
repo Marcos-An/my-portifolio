@@ -37,7 +37,7 @@ export function SliderProjects({
       <div
         className={styles.arrowRight}
         onClick={scrollRight}
-        style={size === 'sm' ? { width: '14.3%' } : { width: '4.3%' }}
+        style={size === 'sm' ? { width: '14.3%' } : { width: '4.6%' }}
       >
         <CaretRight size={24} />
       </div>

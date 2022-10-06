@@ -12,6 +12,8 @@ export function ProjectsSection() {
 
   return (
     <div className={styles.container}>
+      <a id="side-projects" />
+      <br />
       <h1>SIDE PROJECTS</h1>
       <h2>プロジェクト</h2>
       <div className={styles.slide}>

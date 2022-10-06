@@ -5,6 +5,7 @@ import {
   GithubLogo,
   LinkedinLogo
 } from 'phosphor-react'
+import { SocialIcons } from '@components/molecules/SocialIcons'
 
 export function ContactSection() {
   return (
@@ -18,15 +19,12 @@ export function ContactSection() {
         quis dolor vel lacus lacinia congue id ut nisl. Nulla facilisi.{' '}
       </p>
 
-      <div className={styles.socialIcons}>
-        <GithubLogo />
-        <EnvelopeSimple />
-        <LinkedinLogo />
-      </div>
-
-      <div className={styles.backToTop}>
-        <ArrowUp />
-      </div>
+      <SocialIcons />
+      <a href="#home">
+        <div className={styles.backToTop}>
+          <ArrowUp />
+        </div>
+      </a>
     </div>
   )
 }

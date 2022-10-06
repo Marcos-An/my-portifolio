@@ -6,6 +6,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Noto Sans JP', sans-serif;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -83,6 +84,20 @@ body {
     rgba(56, 11, 110, 0.01) 0%,
     rgba(21, 4, 30, 0.7) 100%
   );
+}
+
+body::-webkit-scrollbar {
+  width: 9px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #aaaaaa; /* color of the scroll thumb */
+  border-radius: 10px; /* roundness of the scroll thumb */
+  padding: 3px;
 }
 
 button {

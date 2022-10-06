@@ -1,7 +1,8 @@
 .container {
-  height: 50vh;
+  padding: 10% 0;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   background: var(--color-about-background);
 

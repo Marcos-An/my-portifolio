@@ -86,19 +86,3 @@
     width: 334px;
   }
 }
-
-.socialIcons {
-  font-size: 2rem;
-  color: var(--color-title);
-  display: flex;
-  gap: 1rem;
-  position: absolute;
-  bottom: 3rem;
-
-  :nth-child(n) {
-    &:hover {
-      color: var(--color-primary);
-      cursor: pointer;
-    }
-  }
-}
