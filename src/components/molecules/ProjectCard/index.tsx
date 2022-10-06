@@ -46,35 +46,37 @@ function CardMD({ data }: { data: ProjectType }) {
   const router = useRouter()
 
   return (
-    <div
-      className={styles.mediumImageContainer}
-      id={'slide-item-lg'}
-      onClick={() => redirect(data.title, router)}
-    >
-      <div className={styles.cornersWrapper}>
-        <CornersOut />
-      </div>
-      <div className={styles.mediumContentWrapper}>
-        <h3>{data.title}</h3>
-        <span>
-          Veja Agora <ArrowIconCard />
-        </span>
-      </div>
+    <Tilt tiltReverse={true} scale={1.05}>
+      <div
+        className={styles.mediumImageContainer}
+        id={'slide-item-lg'}
+        onClick={() => redirect(data.title, router)}
+      >
+        <div className={styles.cornersWrapper}>
+          <CornersOut />
+        </div>
+        <div className={styles.mediumContentWrapper}>
+          <h3>{data.title}</h3>
+          <span>
+            Veja Agora <ArrowIconCard />
+          </span>
+        </div>
 
-      <Image
-        src={data.bannerUrl}
-        alt={data.title}
-        layout="fill"
-        objectFit="cover"
-      />
-    </div>
+        <Image
+          src={data.bannerUrl}
+          alt={data.title}
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
+    </Tilt>
   )
 }
 
 function CardLG({ data }: { data: ProjectType }) {
   const router = useRouter()
   return (
-    <Tilt tiltReverse={true}>
+    <Tilt tiltReverse={true} tiltAxis={'y'}>
       <div
         className={styles.largeImageContainer}
         id={'slide-item-lg'}

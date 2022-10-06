@@ -22,6 +22,16 @@
   min-height: 25rem;
   border-radius: 0.6rem;
 
+  &:hover {
+    border: var(--color-border-hover-card);
+    box-shadow: 0px 0px 15px rgba(196, 70, 43);
+
+    .mediumContentWrapper {
+      background: var(--color-project-card-hover-background);
+      transition: all 0.1s ease-in-out;
+    }
+  }
+
   .mediumContentWrapper {
     padding: 1rem;
     h3 {
@@ -42,6 +52,16 @@
   border-radius: 0.6rem;
   margin-left: 1.5rem;
 
+  &:hover {
+    border: var(--color-border-hover-card);
+    box-shadow: 0px 0px 15px rgba(196, 70, 43);
+
+    .largeContentWrapper {
+      background: var(--color-project-card-hover-background);
+      transition: all 0.1s ease-in-out;
+    }
+  }
+
   .largeContentWrapper {
     padding: 1rem;
 
@@ -59,8 +79,8 @@
 .largeImageContainer {
   .cornersWrapper {
     position: absolute;
-    height: 1.7rem;
-    width: 1.7rem;
+    height: 1.4rem;
+    width: 1.4rem;
     top: 0.7rem;
     right: 1rem;
     background-color: var(--color-corner-project-card);

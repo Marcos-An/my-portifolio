@@ -4,9 +4,11 @@ import projectsData from '@utils/projects.json'
 import { SliderProjects } from '@components/molecules/SlideProjects '
 import { ProjectType } from '@utils/types'
 import { Button } from '@components/molecules/Button'
+import { useRouter } from 'next/router'
 
 export function ProjectsSection() {
   const { projects } = projectsData
+  const router = useRouter()
 
   return (
     <div className={styles.container}>
@@ -14,7 +16,7 @@ export function ProjectsSection() {
       <h2>プロジェクト</h2>
       <div className={styles.slide}>
         <SliderProjects size="lg">
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <ProjectCard
               data={project as ProjectType}
               key={project.id}
@@ -25,7 +27,7 @@ export function ProjectsSection() {
       </div>
       <br />
       <br />
-      <Button>Veja Todos</Button>
+      <Button onClick={() => router.push('/side-projects')}>Veja Todos</Button>
     </div>
   )
 }

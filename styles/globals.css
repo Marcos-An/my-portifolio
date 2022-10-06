@@ -33,6 +33,15 @@ body {
   --color-theme-icon: #ffffff;
   --banner-image: url('/assets/images/background-light.png');
   --color-about-background: #d9d9d9;
+
+  --color-border-hover-card: 3px solid #c4462b;
+  --color-shadow-hover-card: 0px 0px 15px rgba(196, 70, 43);
+
+  --color-project-card-hover-background: linear-gradient(
+    180deg,
+    rgba(104, 130, 116, 0.01) 0%,
+    rgba(104, 130, 116, 0.9) 100%
+  );
 }
 
 [data-theme='dark'] {
@@ -64,6 +73,15 @@ body {
     0deg,
     #1c003e -34.77%,
     #01010a 106.91%
+  );
+
+  --color-border-hover-card: 2px solid #ffb800;
+  --color-shadow-hover-card: 0px 0px 17px #ffb800;
+
+  --color-project-card-hover-background: linear-gradient(
+    180deg,
+    rgba(56, 11, 110, 0.01) 0%,
+    rgba(21, 4, 30, 0.7) 100%
   );
 }
 

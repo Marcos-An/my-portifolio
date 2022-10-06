@@ -3,7 +3,9 @@
 
   .arrowRight {
     display: flex;
-    height: 100%;
+    height: calc(100% - 2rem);
+    margin-top: 1rem;
+
     align-items: center;
     justify-content: center;
     position: absolute;
@@ -33,4 +35,7 @@
   scroll-behavior: smooth;
   overflow: hidden;
   position: relative;
+
+  padding: 1rem 0rem;
+  padding-left: 1rem;
 }
