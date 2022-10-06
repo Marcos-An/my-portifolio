@@ -5,7 +5,7 @@ import { SliderProjects } from '@components/molecules/SlideProjects '
 import { ProjectType } from '@utils/types'
 import { Button } from '@components/molecules/Button'
 
-export function ThirdSection() {
+export function ProjectsSection() {
   const { projects } = projectsData
 
   return (

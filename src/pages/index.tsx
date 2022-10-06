@@ -1,15 +1,17 @@
 import styles from './home.module.scss'
-import { FirstSection } from '@components/organisms/FistSection'
+import { MainSection } from '@components/organisms/MainSection'
 import { Menu } from '@components/atoms/Menu'
-import { SecondSection } from '@components/organisms/SecondSection'
-import { ThirdSection } from '@components/organisms/ThirdSection'
+import { AboutSection } from '@components/organisms/AboutSection'
+import { ProjectsSection } from '@components/organisms/ProjectsSection'
+import { ContactSection } from '@components/organisms/ContactSection'
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <FirstSection />
-      <SecondSection />
-      <ThirdSection />
+      <MainSection />
+      <AboutSection />
+      <ProjectsSection />
+      <ContactSection />
     </div>
   )
 }

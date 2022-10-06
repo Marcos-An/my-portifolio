@@ -6,7 +6,7 @@ import { useContext } from 'react'
 import styles from './secondSection.module.scss'
 import projectsData from '@utils/projects.json'
 
-export function SecondSection() {
+export function AboutSection() {
   const themeContext = useContext(ThemeContext)
   const { theme } = themeContext
 

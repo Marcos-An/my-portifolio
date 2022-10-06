@@ -18,11 +18,12 @@
 }
 
 .mediumImageContainer {
-  min-height: 9.375rem;
-  min-width: 16.875rem;
+  min-width: 15rem;
+  min-height: 25rem;
   border-radius: 0.6rem;
 
   .mediumContentWrapper {
+    padding: 1rem;
     h3 {
       font-size: 1.1rem;
       margin-bottom: 7px;
@@ -42,6 +43,7 @@
   margin-left: 1.5rem;
 
   .largeContentWrapper {
+    padding: 1rem;
     h3 {
       font-size: 1.1rem;
       margin-bottom: 7px;
@@ -51,6 +53,27 @@
       font-size: 0.8rem;
       cursor: pointer;
     }
+  }
+}
+
+.mediumImageContainer,
+.largeImageContainer {
+  .cornersWrapper {
+    position: absolute;
+    height: 1.7rem;
+    width: 1.7rem;
+    top: 0.7rem;
+    right: 1rem;
+    background-color: var(--color-corner-project-card);
+    z-index: 4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.3rem;
+
+    color: var(--color-white);
+    font-size: 1.2rem;
   }
 }
 
@@ -68,6 +91,10 @@
 
   color: var(--color-project-text);
   background: var(--color-project-card-background);
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .smallImageContainer,
@@ -77,9 +104,4 @@
   z-index: 0;
   overflow: hidden;
   scroll-snap-align: start;
-  pointer-events: none;
-
-  &:hover {
-    cursor: pointer;
-  }
 }

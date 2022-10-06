@@ -26,10 +26,13 @@ body {
     rgba(104, 130, 116, 0.35) 0%,
     #213b43 100%
   );
+  --color-corner-project-card: #c4462b;
   --color-icon: #082546;
   --color-back-top-button: #688274;
-  --color-theme-icon: #082546;
+  --color-back-top-icon: #082546;
+  --color-theme-icon: #ffffff;
   --banner-image: url('/assets/images/background-light.png');
+  --color-about-bakground: #d9d9d9;
 }
 
 [data-theme='dark'] {
@@ -51,10 +54,17 @@ body {
     rgba(56, 11, 110, 0.33) 0.82%,
     #15041e 100%
   );
+  --color-corner-project-card: #1c003e;
   --color-icon: #ffffff;
   --color-back-top-button: #ffffff;
+  --color-back-top-icon: #082546;
   --color-theme-icon: #ffffff;
   --banner-image: url('/assets/images/background-dark.png');
+  --color-about-bakground: linear-gradient(
+    0deg,
+    #1c003e -34.77%,
+    #01010a 106.91%
+  );
 }
 
 button {

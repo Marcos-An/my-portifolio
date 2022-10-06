@@ -1,13 +1,6 @@
 import styles from './firstSection.module.scss'
-import { MyLogo } from '@components/atoms/Logo'
 import { Button } from '@components/molecules/Button'
-import {
-  CloudMoon,
-  EnvelopeSimple,
-  GithubLogo,
-  LinkedinLogo,
-  SunHorizon
-} from 'phosphor-react'
+import { EnvelopeSimple, GithubLogo, LinkedinLogo } from 'phosphor-react'
 import { useContext, useState } from 'react'
 import { ThemeContext } from '@contexts/ThemeContext'
 import Image from 'next/image'
@@ -16,31 +9,15 @@ import projectsData from '@utils/projects.json'
 import { ProjectCard } from '@components/molecules/ProjectCard'
 import { ProjectType } from 'src/utils/types'
 
-export function FirstSection() {
+export function MainSection() {
   const [currentSlide, setcurrentSlide] = useState(1)
   const themeContext = useContext(ThemeContext)
-  const { theme, handleTheme } = themeContext
+  const { theme } = themeContext
 
   const { projects } = projectsData
 
   return (
     <div className={styles.container}>
-      <div className={styles.header}>
-        <MyLogo />
-        {theme === 'light' ? (
-          <SunHorizon
-            className={styles.themeHandler}
-            onClick={handleTheme}
-            weight="bold"
-          />
-        ) : (
-          <CloudMoon
-            className={styles.themeHandler}
-            onClick={handleTheme}
-            weight="bold"
-          />
-        )}
-      </div>
       {theme === 'light' ? (
         <div className={styles.titleLightContainer}>
           <div className={styles.imageWrapper}>

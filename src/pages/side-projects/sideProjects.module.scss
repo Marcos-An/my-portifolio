@@ -1,0 +1,28 @@
+.container {
+  padding-top: 20rem;
+  padding: 8% 10%;
+  background: var(--color-about-bakground);
+}
+
+.projectsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.3rem;
+
+  margin-top: 3rem;
+}
+
+.title {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.5rem;
+  h1 {
+    color: var(--color-title);
+    margin: 0;
+  }
+
+  h3 {
+    color: var(--color-subtitle);
+    margin-bottom: 7px;
+  }
+}
