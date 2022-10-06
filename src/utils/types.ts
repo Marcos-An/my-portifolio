@@ -3,4 +3,6 @@ export interface ProjectType {
   title: string
   bannerUrl: string
   about: string
+  techs: string[]
+  github: string
 }

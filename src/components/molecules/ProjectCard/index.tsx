@@ -5,6 +5,7 @@ import { ProjectType } from 'src/utils/types'
 import { CornersOut } from 'phosphor-react'
 import { toKebabCase } from '@utils/convertCase'
 import { useRouter } from 'next/router'
+import Tilt from 'react-parallax-tilt'
 
 interface CardHome {
   size?: 'sm' | 'md' | 'lg'
@@ -43,9 +44,11 @@ function CardSM({ data }: { data: ProjectType }) {
 
 function CardMD({ data }: { data: ProjectType }) {
   const router = useRouter()
+
   return (
     <div
       className={styles.mediumImageContainer}
+      id={'slide-item-lg'}
       onClick={() => redirect(data.title, router)}
     >
       <div className={styles.cornersWrapper}>
@@ -71,24 +74,26 @@ function CardMD({ data }: { data: ProjectType }) {
 function CardLG({ data }: { data: ProjectType }) {
   const router = useRouter()
   return (
-    <div
-      className={styles.largeImageContainer}
-      id={'slide-item-lg'}
-      onClick={() => redirect(data.title, router)}
-    >
-      <div className={styles.cornersWrapper}>
-        <CornersOut />
+    <Tilt tiltReverse={true}>
+      <div
+        className={styles.largeImageContainer}
+        id={'slide-item-lg'}
+        onClick={() => redirect(data.title, router)}
+      >
+        <div className={styles.cornersWrapper}>
+          <CornersOut />
+        </div>
+        <div className={styles.largeContentWrapper}>
+          <h3>{data.title}</h3>
+        </div>
+        <Image
+          src={data.bannerUrl}
+          alt={data.title}
+          layout="fill"
+          objectFit="cover"
+        />
       </div>
-      <div className={styles.largeContentWrapper}>
-        <h3>{data.title}</h3>
-      </div>
-      <Image
-        src={data.bannerUrl}
-        alt={data.title}
-        layout="fill"
-        objectFit="cover"
-      />
-    </div>
+    </Tilt>
   )
 }
 

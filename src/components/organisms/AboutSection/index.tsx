@@ -1,4 +1,4 @@
-import { TechIcons } from '@components/atoms/TechIcons'
+import { TechIcons as Icons } from '@components/atoms/TechIcons'
 import { Button } from '@components/molecules/Button'
 import { ThemeContext } from '@contexts/ThemeContext'
 import Image from 'next/image'
@@ -12,6 +12,16 @@ export function AboutSection() {
 
   const { projects } = projectsData
 
+  const TechIcons = () => {
+    return (
+      <div className={styles.techWrapper}>
+        <Icons tech="react" />
+        <Icons tech="vue" />
+        <Icons tech="javascript" />
+        <Icons tech="typescript" />
+      </div>
+    )
+  }
   return (
     <div className={styles.container}>
       {theme === 'light' ? (
@@ -35,13 +45,8 @@ export function AboutSection() {
               lobortis euismod velit vel auctor.{' '}
             </p>
             <div className={styles.buttonLightWrapper}>
-              <Button />
-              <div className={styles.techWrapper}>
-                <TechIcons tech="react" />
-                <TechIcons tech="vue" />
-                <TechIcons tech="js" />
-                <TechIcons tech="ts" />
-              </div>
+              <Button>Meus Projetos</Button>
+              <TechIcons />
             </div>
           </div>
         </div>
@@ -57,16 +62,11 @@ export function AboutSection() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Pellentesque quis dolor vel lacus lacinia congue id ut nisl. Nulla
               facilisi. Cras mattis libero nec mi fringilla efficitur. Fusce
-              lobortis euismod velit vel auctor.{' '}
+              lobortis euismod velit vel auctor
             </p>
             <div className={styles.buttonLightWrapper}>
-              <Button />
-              <div className={styles.techWrapper}>
-                <TechIcons tech="react" />
-                <TechIcons tech="vue" />
-                <TechIcons tech="js" />
-                <TechIcons tech="ts" />
-              </div>
+              <Button>Meus Projetos</Button>
+              <TechIcons />
             </div>
           </div>
         </div>

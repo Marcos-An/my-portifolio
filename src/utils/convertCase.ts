@@ -3,3 +3,9 @@ export const toKebabCase = (title: string) => {
 
   return lowerCase.replace(' ', '-')
 }
+
+export const toUpperCase = (title: string) => {
+  const lowerCase = title.toUpperCase()
+
+  return lowerCase.replace('-', ' ')
+}

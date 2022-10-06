@@ -24,12 +24,12 @@ export function SliderProjects({
 
     if (isInViewPort(lastItem)) {
       slide.scrollBy(-100000, 0)
-      size === 'sm' && setcurrentSlide(1)
+      size === 'sm' && setcurrentSlide && setcurrentSlide(1)
       return
     }
 
-    document.getElementById(id).scrollBy(20, 0)
-    size === 'sm' && setcurrentSlide((prev) => prev + 1)
+    slide.scrollBy(20, 0)
+    size === 'sm' && setcurrentSlide && setcurrentSlide((prev) => prev + 1)
   }
 
   return (

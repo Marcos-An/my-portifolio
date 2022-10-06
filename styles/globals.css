@@ -17,7 +17,7 @@ body {
   --color-paragraph: #082546;
   --color-project-text: #ebe4a5;
   --color-project-page-background: linear-gradient(
-    0deg,
+    180deg,
     rgba(104, 130, 116, 0.62) 0.01%,
     #315561 100%
   );
@@ -32,7 +32,7 @@ body {
   --color-back-top-icon: #082546;
   --color-theme-icon: #ffffff;
   --banner-image: url('/assets/images/background-light.png');
-  --color-about-bakground: #d9d9d9;
+  --color-about-background: #d9d9d9;
 }
 
 [data-theme='dark'] {
@@ -43,8 +43,8 @@ body {
   --color-title: #ffffff;
   --color-paragraph: #ffffff;
   --color-project-text: #ffffff;
-  --color-project-page-bakground: linear-gradient(
-    180deg,
+  --color-project-page-background: linear-gradient(
+    00deg,
     #380b6e 0%,
     #1c003e 0.01%,
     rgba(1, 1, 10, 0.62) 100%
@@ -60,7 +60,7 @@ body {
   --color-back-top-icon: #082546;
   --color-theme-icon: #ffffff;
   --banner-image: url('/assets/images/background-dark.png');
-  --color-about-bakground: linear-gradient(
+  --color-about-background: linear-gradient(
     0deg,
     #1c003e -34.77%,
     #01010a 106.91%

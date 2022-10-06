@@ -25,7 +25,7 @@ export function ProjectsSection() {
       </div>
       <br />
       <br />
-      <Button />
+      <Button>Veja Todos</Button>
     </div>
   )
 }

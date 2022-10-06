@@ -51,14 +51,15 @@
 }
 
 .darkContainer {
-  display: grid;
-  grid-template-columns: 0.3fr 1fr;
+  display: flex;
   height: 100%;
   background: linear-gradient(180deg, #1c003e -34.77%, #01010a 106.91%);
+
   .imageLeft {
     background-image: url('/assets/images/left-background.png');
     background-repeat: no-repeat;
     background-size: cover;
+    min-width: 25%;
   }
 
   .contentDarkWrapper {
@@ -93,7 +94,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 80rem;
+      width: 100%;
 
       .techWrapper {
         margin-left: 20rem;

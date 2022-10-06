@@ -32,7 +32,7 @@ export function MainSection() {
             <h1>Olá, eu sou o Marcos</h1>
             <h1>Bem vindo ao meu portifólio</h1>
           </div>
-          <Button />
+          <Button>Read More</Button>
         </div>
       ) : (
         <div className={styles.titleDarkContainer}>
@@ -46,7 +46,7 @@ export function MainSection() {
               Pellentesque quis dolor vel lacus lacinia congue
             </p>
 
-            <Button />
+            <Button>Read More</Button>
           </div>
         </div>
       )}

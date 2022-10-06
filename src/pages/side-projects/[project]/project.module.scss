@@ -1,3 +1,50 @@
 .container {
+  height: 100vh;
+  position: relative;
+
+  .slide {
+    position: absolute;
+    width: 334px;
+    z-index: 5;
+    right: 0;
+    bottom: 2rem;
+  }
+}
+
+.contentContainer {
+  z-index: 1;
   padding: 8% 10%;
+  height: 100%;
+  position: relative;
+  background: var(--color-project-page-background);
+
+  .contentWrapper {
+    position: absolute;
+    bottom: 7rem;
+    color: var(--color-project-text);
+
+    h1 {
+      font-size: 4rem;
+      font-weight: 900;
+      margin-bottom: 0.6rem;
+    }
+    p {
+      font-size: 1.1rem;
+      width: 45%;
+      margin-bottom: 4rem;
+      margin-top: 2rem;
+    }
+  }
+  .techs {
+    display: flex;
+    gap: 1rem;
+  }
+
+  button {
+    color: var(--color-project-text);
+
+    svg {
+      fill: var(--color-project-text);
+    }
+  }
 }
