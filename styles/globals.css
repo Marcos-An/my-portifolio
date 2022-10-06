@@ -87,17 +87,16 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 9px; /* width of the entire scrollbar */
+  width: 9px;
 }
 
 body::-webkit-scrollbar-track {
-  background: transparent; /* color of the tracking area */
+  background: transparent;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #aaaaaa; /* color of the scroll thumb */
-  border-radius: 10px; /* roundness of the scroll thumb */
-  padding: 3px;
+  background-color: #aaaaaa;
+  border-radius: 10px;
 }
 
 button {

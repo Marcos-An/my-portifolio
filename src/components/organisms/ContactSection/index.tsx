@@ -1,10 +1,5 @@
 import styles from './contactSection.module.scss'
-import {
-  ArrowUp,
-  EnvelopeSimple,
-  GithubLogo,
-  LinkedinLogo
-} from 'phosphor-react'
+import { ArrowUp } from 'phosphor-react'
 import { SocialIcons } from '@components/molecules/SocialIcons'
 
 export function ContactSection() {

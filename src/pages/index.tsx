@@ -1,6 +1,5 @@
 import styles from './home.module.scss'
 import { MainSection } from '@components/organisms/MainSection'
-import { Menu } from '@components/atoms/Menu'
 import { AboutSection } from '@components/organisms/AboutSection'
 import { ProjectsSection } from '@components/organisms/ProjectsSection'
 import { ContactSection } from '@components/organisms/ContactSection'
