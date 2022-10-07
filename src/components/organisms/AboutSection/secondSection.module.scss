@@ -50,13 +50,13 @@
   }
 }
 
-@media only screen and (min-width: 350px) and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
   .container {
     height: auto;
   }
 
   .lightContainer {
-    padding: 4rem 0rem;
+    padding: 4rem 6%;
 
     .imageWrapper {
       display: none;
@@ -64,7 +64,6 @@
 
     .contentLightWrapper {
       margin-left: 0rem;
-      padding-left: 2rem;
       z-index: 2;
 
       h1 {
@@ -142,14 +141,14 @@
   }
 }
 
-@media only screen and (min-width: 350px) and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
   .imageLeft {
     display: none;
   }
 
   .darkContainer {
     display: block;
-    padding: 4rem 2rem;
+    padding: 4rem 6%;
   }
 
   .contentDarkWrapper {

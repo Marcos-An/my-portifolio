@@ -48,3 +48,37 @@
     }
   }
 }
+
+@media only screen and (max-width: 1023px) {
+  .contentContainer {
+    padding: 50% 6%;
+    position: relative;
+    background: var(--color-project-page-background);
+
+    .contentWrapper {
+      position: initial;
+      bottom: 35%;
+      color: var(--color-project-text);
+
+      h1 {
+        font-size: 2rem;
+        font-weight: 900;
+        margin-bottom: 2rem !important;
+      }
+      p {
+        font-size: 1rem;
+        width: 100%;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+      }
+    }
+  }
+  .container {
+    .slide {
+      position: absolute;
+      padding-left: 6%;
+      width: 100%;
+      bottom: 1rem;
+    }
+  }
+}

@@ -40,7 +40,7 @@
   }
 }
 
-@media only screen and (min-width: 350px) and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
   .titleLightContainer {
     .imageWrapper {
       width: 10rem;
@@ -84,7 +84,7 @@
   }
 }
 
-@media only screen and (min-width: 350px) and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
   .titleDarkContainer {
     display: flex;
     height: 70%;
@@ -128,9 +128,11 @@
   }
 }
 
-@media only screen and (min-width: 350px) and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
   .container {
     height: 112vh;
+
+    padding: 0 6%;
   }
   .socialIcons {
     display: none;
@@ -139,10 +141,10 @@
   .slideWrapper {
     display: block;
 
-    padding-left: 2rem;
+    padding-left: 6%;
     width: 100vw;
     p {
-      width: 20rem;
+      width: 90%;
     }
 
     .slide {

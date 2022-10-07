@@ -25,11 +25,9 @@
   margin-top: 4rem;
 }
 
-@media only screen and (min-width: 350px) and (max-width: 768px) {
+@media only screen and (max-width: 1023px) {
   .container {
-    padding-top: 2.5rem;
-    padding-bottom: 5rem;
-    padding-left: 3rem;
+    padding: 2.5rem 0rem 5rem 6%;
 
     h1 {
       font-size: 2rem;

@@ -6,6 +6,7 @@ import { CornersOut } from 'phosphor-react'
 import { toKebabCase } from '@utils/convertCase'
 import { useRouter } from 'next/router'
 import Tilt from 'react-parallax-tilt'
+import { useWindowDimensions } from '@hooks/useWindowSize'
 
 interface CardHome {
   size?: 'sm' | 'md' | 'lg'
@@ -43,10 +44,16 @@ function CardSM({ data }: { data: ProjectType }) {
 }
 
 function CardMD({ data }: { data: ProjectType }) {
+  const { width } = useWindowDimensions()
   const router = useRouter()
 
+  console.log(width)
   return (
-    <Tilt tiltReverse={true} scale={1.05}>
+    <Tilt
+      tiltReverse={true}
+      tiltEnable={width && width < 1024 ? false : true}
+      scale={1.05}
+    >
       <div
         className={styles.mediumImageContainer}
         id={'slide-item-lg'}
@@ -75,6 +82,7 @@ function CardMD({ data }: { data: ProjectType }) {
 
 function CardLG({ data }: { data: ProjectType }) {
   const router = useRouter()
+
   return (
     <Tilt tiltReverse={true} tiltAxis={'y'}>
       <div
