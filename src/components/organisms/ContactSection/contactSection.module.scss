@@ -6,20 +6,6 @@
   flex-direction: column;
   background: var(--color-about-background);
 
-  .socialIcons {
-    font-size: 2rem;
-    color: var(--color-title);
-    display: flex;
-    gap: 1rem;
-    margin-top: 7rem;
-
-    :nth-child(n) {
-      &:hover {
-        color: var(--color-primary);
-        cursor: pointer;
-      }
-    }
-  }
   p {
     width: 35%;
     text-align: center;
@@ -43,10 +29,6 @@
       color: var(--color-title);
       z-index: 2;
     }
-  }
-
-  &:hover {
-    cursor: pointer;
   }
 }
 
