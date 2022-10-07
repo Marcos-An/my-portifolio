@@ -86,6 +86,37 @@
 }
 
 @media only screen and (min-width: 350px) and (max-width: 768px) {
+  .mediumImageContainer {
+    min-width: 15rem;
+    min-height: 25rem;
+    border-radius: 0.6rem;
+
+    &:hover {
+      border: var(--color-border-hover-card);
+      box-shadow: 0px 0px 15px rgba(196, 70, 43);
+
+      .mediumContentWrapper {
+        background: var(--color-project-card-hover-background);
+        transition: all 0.1s ease-in-out;
+      }
+    }
+
+    .mediumContentWrapper {
+      padding: 1rem;
+      h3 {
+        font-size: 1.1rem;
+        margin-bottom: 7px;
+      }
+
+      span {
+        font-size: 0.8rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 768px) {
   .largeImageContainer {
     min-width: 16rem;
     min-height: 20rem;

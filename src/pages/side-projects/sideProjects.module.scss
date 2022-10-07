@@ -1,5 +1,4 @@
 .container {
-  padding-top: 20rem;
   padding: 8% 10%;
   background: var(--color-about-background);
 }
@@ -24,5 +23,20 @@
   h3 {
     color: var(--color-subtitle);
     margin-bottom: 7px;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 768px) {
+  .container {
+    padding: 30% 10%;
+    background: var(--color-about-background);
+  }
+
+  .title {
+    display: block;
+
+    h3 {
+      margin: 0.2rem 0;
+    }
   }
 }
