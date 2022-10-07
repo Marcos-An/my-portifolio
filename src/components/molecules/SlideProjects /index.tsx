@@ -28,7 +28,7 @@ export function SliderProjects({
       return
     }
 
-    slide.scrollBy(20, 0)
+    slide.scrollBy(150, 0)
     size === 'sm' && setcurrentSlide && setcurrentSlide((prev) => prev + 1)
   }
 
