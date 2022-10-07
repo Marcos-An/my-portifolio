@@ -52,10 +52,12 @@
 
 @media only screen and (min-width: 350px) and (max-width: 768px) {
   .container {
-    height: 55vh;
+    height: auto;
   }
 
   .lightContainer {
+    padding: 4rem 0rem;
+
     .imageWrapper {
       display: none;
     }
@@ -130,12 +132,48 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      width: 100%;
 
       .techWrapper {
         margin-left: 20rem;
         display: flex;
         gap: 1.2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 768px) {
+  .imageLeft {
+    display: none;
+  }
+
+  .darkContainer {
+    display: block;
+    padding: 4rem 2rem;
+  }
+
+  .contentDarkWrapper {
+    margin-left: 0rem !important;
+    display: block;
+
+    h1 {
+      font-size: 2rem !important;
+    }
+    h3 {
+      font-size: 1.1rem !important;
+    }
+
+    p {
+      width: auto !important;
+      margin-top: 2rem !important;
+      font-size: 0.9rem !important;
+      color: var(--color-paragraph);
+    }
+
+    .buttonLightWrapper {
+      margin-top: 2rem !important;
+      .techWrapper {
+        display: none !important;
       }
     }
   }
