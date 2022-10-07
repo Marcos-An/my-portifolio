@@ -20,7 +20,7 @@
       "id": 3,
       "title": "POKEDEX APP",
       "bannerUrl": "/assets/images/projectsScreens/pokedex.png",
-      "about": "Pokedex made with a PokeApi. The application allows the user to see the pokemons in detail, also having the possibility to search for the pokemon they want",
+      "about": "Pokedex feito com uma PokeApi. O aplicativo permite que o usuário veja o pokemon em detalhes, tendo também a possibilidade de procurar o pokemon que deseja",
       "techs": ["react", "javascript", "css"],
       "github": "https://github.com/Marcos-An/Pokedex"
     },
