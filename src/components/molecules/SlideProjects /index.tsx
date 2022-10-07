@@ -35,9 +35,8 @@ export function SliderProjects({
   return (
     <div className={styles.container}>
       <div
-        className={styles.arrowRight}
+        className={size === 'sm' ? styles.arrowRightSM : styles.arrowRightLG}
         onClick={scrollRight}
-        style={size === 'sm' ? { width: '14.3%' } : { width: '4.6%' }}
       >
         <CaretRight size={24} />
       </div>

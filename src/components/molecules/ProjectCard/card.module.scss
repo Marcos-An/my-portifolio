@@ -85,6 +85,20 @@
   }
 }
 
+@media only screen and (min-width: 350px) and (max-width: 768px) {
+  .largeImageContainer {
+    min-width: 16rem;
+    min-height: 20rem;
+
+    .largeContentWrapper {
+      h3 {
+        font-size: 1.1rem;
+        width: 50%;
+      }
+    }
+  }
+}
+
 .mediumImageContainer,
 .largeImageContainer {
   .cornersWrapper {
