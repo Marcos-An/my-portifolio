@@ -54,7 +54,9 @@ export function MainSection() {
           </div>
         </div>
       )}
-      <SocialIcons />
+      <div className={styles.socialIcons}>
+        <SocialIcons />
+      </div>
       <div className={styles.slideWrapper}>
         <p>{projects[currentSlide - 1].about}</p>
         <div className={styles.slide}>
