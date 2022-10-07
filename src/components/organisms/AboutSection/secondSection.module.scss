@@ -50,6 +50,42 @@
   }
 }
 
+@media only screen and (min-width: 350px) and (max-width: 768px) {
+  .container {
+    height: 55vh;
+  }
+
+  .lightContainer {
+    .imageWrapper {
+      display: none;
+    }
+
+    .contentLightWrapper {
+      margin-left: 0rem;
+      padding-left: 2rem;
+      z-index: 2;
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h3 {
+        font-size: 1.1rem;
+      }
+
+      p {
+        width: 100%;
+      }
+
+      .buttonLightWrapper {
+        .techWrapper {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
 .darkContainer {
   display: flex;
   height: 100%;
