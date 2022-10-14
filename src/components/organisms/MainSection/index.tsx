@@ -30,26 +30,27 @@ export function MainSection() {
             />
           </div>
           <div className={styles.titleLightWrapper}>
-            <h1>Olá, eu sou o Marcos</h1>
-            <h1>Bem vindo ao meu portifólio</h1>
+            <h1>Hello, I'm Marcos</h1>
+            <h1>Welcome to my portfolio</h1>
           </div>
           <a href="#about">
-            <Button>Saiba Mais</Button>
+            <Button>See More</Button>
           </a>
         </div>
       ) : (
         <div className={styles.titleDarkContainer}>
           <div className={styles.titleDarkWrapper}>
-            <h1>BEM VINDO A NOITE</h1>
-            <h1>NO MEU PORTIFOLIO</h1>
+            <h1>WELCOME TO THE NIGHT</h1>
+            <h1>IN MY PORTIFOLIO</h1>
           </div>
           <div className={styles.subtitleDarkWrapper}>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque quis dolor vel lacus lacinia congue
+              Hello, welcome to the portfolio of a senior frontend developer,
+              enjoy this chaotic night, get to know a little about me and see my
+              projects
             </p>
             <a href="#about">
-              <Button>Saiba Mais</Button>
+              <Button>See More</Button>
             </a>
           </div>
         </div>

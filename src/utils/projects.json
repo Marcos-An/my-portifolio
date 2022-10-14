@@ -4,7 +4,7 @@
       "id": 1,
       "title": "NOEMIA DELIVERY",
       "bannerUrl": "/assets/images/projectsScreens/noemia.png",
-      "about": "Aqui você pode pedir uma experiência de comer uma pizza gourmet com um bom vinho depois de uma deliciosa entrada.",
+      "about": "Here you can order an experience of eating a gourmet pizza with a good wine after a delicious starter.",
       "techs": ["react", "typescript", "hasura", "graphql", "postgres"],
       "github": "https://github.com/Marcos-An/noemia"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "title": "ESPORT NLW",
       "bannerUrl": "/assets/images/projectsScreens/nlw-esport.png",
-      "about": "Aqui você pode criar um anúncio para encontrar sua dupla para jogar seu jogo favorito. Construindo com React, React Native e mais",
+      "about": "Here you can create an ad to find your partner to play your favorite game. Building with React, React Native and more.",
       "techs": ["react", "typescript", "node", "prisma"],
       "github": "https://github.com/Marcos-An/esports-nlw"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "title": "POKEDEX APP",
       "bannerUrl": "/assets/images/projectsScreens/pokedex.png",
-      "about": "Pokedex feito com uma PokeApi. O aplicativo permite que o usuário veja o pokemon em detalhes, tendo também a possibilidade de procurar o pokemon que deseja",
+      "about": "Pokedex made with a PokeApi. The application allows the user to see the pokemon in detail, also having the possibility to search for the pokemon he wants.",
       "techs": ["react", "javascript", "css"],
       "github": "https://github.com/Marcos-An/Pokedex"
     },
@@ -29,7 +29,7 @@
       "id": 4,
       "title": "STER CRYPTO",
       "bannerUrl": "/assets/images/projectsScreens/ster-crypto.png",
-      "about": "O SterCrypto é um modelo para um mercado de NFTs responsivo, crie seu mercado e construa uma ótima experiência para seus usuários. É construído com NextJs e Chakra",
+      "about": "SterCrypto is a template for a responsive NFT marketplace, build your marketplace and build a great experience for your users. It is built with NextJs and Chakra",
       "techs": ["react", "typescript", "css"],
       "github": "https://github.com/Marcos-An/ster-crypto"
     },
@@ -37,7 +37,7 @@
       "id": 5,
       "title": "NEXT STARTER",
       "bannerUrl": "/assets/images/projectsScreens/next-starter.png",
-      "about": "Iniciador simples para Next JS 12+, Chakra UI 2+ e TypeScript, um alias também já está configurado! Clone este projeto e use-o para criar seu próprio projeto Next.js.",
+      "about": "Simple Starter for Next JS 12+, Chakra UI 2+ and TypeScript, an alias is already set up too! Clone this project and use it to create your own Next.js project.",
       "techs": ["react", "typescript"],
       "github": "https://github.com/Marcos-An/next-starter"
     },
@@ -45,7 +45,7 @@
       "id": 6,
       "title": "INTEGRE 10 ANOS",
       "bannerUrl": "/assets/images/projectsScreens/integre-10.png",
-      "about": "Pagina interativa com vários games como jogo da velha e forca, feita em React-js para a comemoração de 10 anos da melhor agencia de marketing, Agência Integre.",
+      "about": "Interactive page with several games such as tic-tac-toe, made in React-js to celebrate 10 years of the best marketing agency, Agência Integra.",
       "techs": ["react", "javascript", "css"],
       "github": "https://github.com/Marcos-An/Integre-10-anos"
     },
@@ -53,7 +53,7 @@
       "id": 7,
       "title": "GOAT BEAT",
       "bannerUrl": "/assets/images/projectsScreens/goat-beat.png",
-      "about": "Uma mesa “DJ” com cabras, é uma brincadeira com HTML, CSS e JavaScript para aprender funções JavaScript puras. Comece agora!",
+      "about": "A “DJ” table with goats, is a play with HTML, CSS and JavaScript to learn pure JavaScript functions. Start now!",
       "techs": ["html", "css", "javascript"],
       "github": "https://github.com/Marcos-An/Goat---Beat"
     },
@@ -61,7 +61,7 @@
       "id": 8,
       "title": "POST DO IT",
       "bannerUrl": "/assets/images/projectsScreens/post-do-it.png",
-      "about": "O que é Post-do-it? é um aplicativo para criar 'post-is' para lembrar o que você tem que fazer, e tudo, sempre com uma pitada de humor",
+      "about": "What is Post-do-it? is an application to create 'post-is' to remember what you have to do, and everything, always with a hint of humor.",
       "techs": ["vue", "javascript", "css"],
       "github": "https://github.com/Marcos-An/Post-do-it"
     },
@@ -69,7 +69,7 @@
       "id": 9,
       "title": "BORDER BEAUTY",
       "bannerUrl": "/assets/images/projectsScreens/border-beauty.png",
-      "about": "Faça seu próprio div personalizado, com largura, altura, plano de fundo e mais. Quando você obtiver sua div perfeita, receberá um CSS para adicionar ao seu código",
+      "about": "Make your own custom div, with width, height, background and more. When you get your perfect div you will get some CSS to add to your code",
       "techs": ["react", "javascript", "css"],
       "github": "https://github.com/Marcos-An/border-beauty"
     },
@@ -77,7 +77,7 @@
       "id": 10,
       "title": "MY WEDDING",
       "bannerUrl": "/assets/images/projectsScreens/wedding.png",
-      "about": "Este é o meu site do meu casamento, que criei para centralizar os links de presentes e uma lista de convidados",
+      "about": "This is my wedding website, which I created to centralize gift links and a guest list.",
       "techs": ["react", "javascript", "css"],
       "github": "https://github.com/Marcos-An/wedding"
     }

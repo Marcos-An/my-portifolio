@@ -29,7 +29,7 @@ export function ProjectsSection() {
       </div>
       <br />
       <br />
-      <Button onClick={() => router.push('/side-projects')}>Veja Todos</Button>
+      <Button onClick={() => router.push('/side-projects')}>See All</Button>
     </div>
   )
 }

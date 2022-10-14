@@ -36,7 +36,7 @@
       color: var(--color-paragraph);
     }
 
-    .buttonLightWrapper {
+    .buttonWrapper {
       margin-top: 2rem;
       display: flex;
       justify-content: space-between;
@@ -78,7 +78,7 @@
         width: 100%;
       }
 
-      .buttonLightWrapper {
+      .buttonWrapper {
         .techWrapper {
           display: none;
         }
@@ -126,14 +126,13 @@
       color: var(--color-paragraph);
     }
 
-    .buttonLightWrapper {
+    .buttonWrapper {
       margin-top: 7rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
 
       .techWrapper {
-        margin-left: 20rem;
         display: flex;
         gap: 1.2rem;
       }
@@ -169,7 +168,7 @@
       color: var(--color-paragraph);
     }
 
-    .buttonLightWrapper {
+    .buttonWrapper {
       margin-top: 2rem !important;
       .techWrapper {
         display: none !important;

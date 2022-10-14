@@ -10,8 +10,8 @@ export function ContactSection() {
         <h1>GET IN TOUCH</h1>
       </div>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-        quis dolor vel lacus lacinia congue id ut nisl. Nulla facilisi.{' '}
+        Now that you know a little about me and have seen some of my projects,
+        let's talk, send me a message or email!
       </p>
 
       <SocialIcons />
