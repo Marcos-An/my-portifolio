@@ -1,4 +1,4 @@
-# Starter for Next JS 12+, Chakra UI 2+ and TypeScript
+# My Portifolio
 
 <div >
    <a href="#">
@@ -20,55 +20,19 @@
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
     </a>
 </div>
-<br>
-<div align="center">
-  <img src="public/assets/images/README_BANNER.png" alt="Next js starter banner">
-</div>
+
 <br>
 
-🚀 Simple starter for Next JS 12+, Chakra UI 2+ and TypeScript, alias is already configured too!
+🚀 My Portifólio is already, read more about me and see my projects! 
 
-Clone this project and use it to quickly create your own [Next.js](https://nextjs.org) project.
+[SEE IT NOW](https://my-portifolio-sepia.vercel.app/)
 
 
 ### Features
 
 - ⚡ [Next.js](https://nextjs.org) for Yor awesome prject SSR / SSG
-- 🔥 Types with [TypeScript](https://www.typescriptlang.org)
-- 💎 Integrate with [Chakra UI](https://chakra-ui.com/)
+- 🔥 Types with [TypeScript](https://www.typescriptlang.org) 
 - 📏 Linter with [ESLint](https://eslint.org) (STANDARD configuration)
 - 🌈 Code Formatter with [Prettier](https://prettier.io)
 - 🗂 Absolute Imports using `@` prefix
-
-
-### Requirements
-
-- Node.js 14+ and npm
-
-### Files Estructure 
-
-```shell
-.
-├── public                          # Public assets folder 
-├── src
-│   ├── Components                  # Components folder
-│   ├── pages                       # Next JS Pages
-│   ├── styles                      # Styles folder 
-├── .editorConfig                   # editorConfig configuration
-├── .eslintrc.json                  # eslintrc configuration
-├── .prettierrc                     # prettierrc configuration
-└── tsconfig.json                   # TypeScript configuration
-├── README.md                       # README file 
-```
-
-### Contributions
-
-Everyone is welcome to contribute to this project. Feel free to open an issue if you have any improvements to suggest.
-
-### License
-
-Licensed under the MIT License, Copyright © 2022
-
-See [LICENSE](LICENSE) for more information.
-
----
+  
