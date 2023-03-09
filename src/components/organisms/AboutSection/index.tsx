@@ -41,8 +41,10 @@ export function AboutSection() {
               ReactJS and their related ecosystem. I started my story as a
               frontend and my first job was at a marketing agency making website
               prototypes and developing with React, HTML, CSS and JS. With that
-              I found my passion and I didn't stop evolving! Take a look at my
-              projects and let's chat.
+              I found my passion and I didn't stop evolving!
+              <br />
+              <br />
+              Take a look at my projects and let's chat.
             </p>
             <div className={styles.buttonWrapper}>
               <a href="#side-projects">
