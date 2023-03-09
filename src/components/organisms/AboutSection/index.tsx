@@ -37,10 +37,12 @@ export function AboutSection() {
             <h3>FRONT END ENGENEER</h3>
 
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque quis dolor vel lacus lacinia congue id ut nisl. Nulla
-              facilisi. Cras mattis libero nec mi fringilla efficitur. Fusce
-              lobortis euismod velit vel auctor.{' '}
+              I have been working for 5 years with JavaScript, TypeScript,
+              ReactJS and their related ecosystem. I started my story as a
+              frontend and my first job was at a marketing agency making website
+              prototypes and developing with React, HTML, CSS and JS. With that
+              I found my passion and I didn't stop evolving! Take a look at my
+              projects and let's chat.
             </p>
             <div className={styles.buttonWrapper}>
               <a href="#side-projects">
